@@ -87,6 +87,7 @@ namespace KW_Univ_BurgerKing_Kiosk
             // 
             // listView1
             // 
+            this.listView1.HideSelection = false;
             this.listView1.LargeImageList = this.imageList1;
             this.listView1.Location = new System.Drawing.Point(12, 78);
             this.listView1.MultiSelect = false;
@@ -140,6 +141,7 @@ namespace KW_Univ_BurgerKing_Kiosk
             this.button6.TabIndex = 6;
             this.button6.Text = "결제";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // Menu
             // 
