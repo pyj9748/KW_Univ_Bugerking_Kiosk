@@ -1,0 +1,22 @@
+C:\Users\이종윤\Documents\대학\응용소프트웨어실습\과제\팀플\KW_Univ_BurgerKing_Kiosk\KW_Univ_BurgerKing_Kiosk\bin\Debug\KW_Univ_BurgerKing_Kiosk.exe.config
+C:\Users\이종윤\Documents\대학\응용소프트웨어실습\과제\팀플\KW_Univ_BurgerKing_Kiosk\KW_Univ_BurgerKing_Kiosk\bin\Debug\KW_Univ_BurgerKing_Kiosk.exe
+C:\Users\이종윤\Documents\대학\응용소프트웨어실습\과제\팀플\KW_Univ_BurgerKing_Kiosk\KW_Univ_BurgerKing_Kiosk\bin\Debug\KW_Univ_BurgerKing_Kiosk.pdb
+C:\Users\이종윤\Documents\대학\응용소프트웨어실습\과제\팀플\KW_Univ_BurgerKing_Kiosk\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.csprojAssemblyReference.cache
+C:\Users\이종윤\Documents\대학\응용소프트웨어실습\과제\팀플\KW_Univ_BurgerKing_Kiosk\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.Menu.resources
+C:\Users\이종윤\Documents\대학\응용소프트웨어실습\과제\팀플\KW_Univ_BurgerKing_Kiosk\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.Properties.Resources.resources
+C:\Users\이종윤\Documents\대학\응용소프트웨어실습\과제\팀플\KW_Univ_BurgerKing_Kiosk\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.csproj.GenerateResource.cache
+C:\Users\이종윤\Documents\대학\응용소프트웨어실습\과제\팀플\KW_Univ_BurgerKing_Kiosk\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.csproj.CoreCompileInputs.cache
+C:\Users\이종윤\Documents\대학\응용소프트웨어실습\과제\팀플\KW_Univ_BurgerKing_Kiosk\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.exe
+C:\Users\이종윤\Documents\대학\응용소프트웨어실습\과제\팀플\KW_Univ_BurgerKing_Kiosk\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.pdb
+C:\Users\이종윤\Documents\대학\응용소프트웨어실습\과제\팀플\KW_Univ_BurgerKing_Kiosk\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.Menu_Select.resources
+C:\Users\wlwhs\Desktop\테스트\6e4a58287d2da52e (1)\KW_Univ_BurgerKing_Kiosk\KW_Univ_BurgerKing_Kiosk\bin\Debug\KW_Univ_BurgerKing_Kiosk.exe.config
+C:\Users\wlwhs\Desktop\테스트\6e4a58287d2da52e (1)\KW_Univ_BurgerKing_Kiosk\KW_Univ_BurgerKing_Kiosk\bin\Debug\KW_Univ_BurgerKing_Kiosk.exe
+C:\Users\wlwhs\Desktop\테스트\6e4a58287d2da52e (1)\KW_Univ_BurgerKing_Kiosk\KW_Univ_BurgerKing_Kiosk\bin\Debug\KW_Univ_BurgerKing_Kiosk.pdb
+C:\Users\wlwhs\Desktop\테스트\6e4a58287d2da52e (1)\KW_Univ_BurgerKing_Kiosk\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.csprojAssemblyReference.cache
+C:\Users\wlwhs\Desktop\테스트\6e4a58287d2da52e (1)\KW_Univ_BurgerKing_Kiosk\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.Menu.resources
+C:\Users\wlwhs\Desktop\테스트\6e4a58287d2da52e (1)\KW_Univ_BurgerKing_Kiosk\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.Menu_Select.resources
+C:\Users\wlwhs\Desktop\테스트\6e4a58287d2da52e (1)\KW_Univ_BurgerKing_Kiosk\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.Properties.Resources.resources
+C:\Users\wlwhs\Desktop\테스트\6e4a58287d2da52e (1)\KW_Univ_BurgerKing_Kiosk\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.csproj.GenerateResource.cache
+C:\Users\wlwhs\Desktop\테스트\6e4a58287d2da52e (1)\KW_Univ_BurgerKing_Kiosk\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.csproj.CoreCompileInputs.cache
+C:\Users\wlwhs\Desktop\테스트\6e4a58287d2da52e (1)\KW_Univ_BurgerKing_Kiosk\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.exe
+C:\Users\wlwhs\Desktop\테스트\6e4a58287d2da52e (1)\KW_Univ_BurgerKing_Kiosk\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.pdb
