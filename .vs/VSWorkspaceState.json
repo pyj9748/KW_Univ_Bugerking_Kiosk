@@ -3,8 +3,9 @@
     "",
     "\\menu_part(jylee&shchoi)",
     "\\menu_part(jylee&shchoi)\\KW_Univ_BurgerKing_Kiosk_Menu",
-    "\\menu_part(jylee&shchoi)\\KW_Univ_BurgerKing_Kiosk_Menu\\KW_Univ_BurgerKing_Kiosk",
-    "\\shchoi"
+    "\\menu_part(jylee&shchoi)\\KW_Univ_BurgerKing_Kiosk_Menu\\CounterMonitor",
+    "\\menu_part(jylee&shchoi)\\KW_Univ_BurgerKing_Kiosk_Menu\\KW_Univ_BurgerKing_Kiosk"
   ],
+  "SelectedNode": "\\menu_part(jylee&shchoi)\\KW_Univ_BurgerKing_Kiosk_Menu\\KW_Univ_BurgerKing_Kiosk\\Menu_Select.cs",
   "PreviewInSolutionExplorer": false
 }

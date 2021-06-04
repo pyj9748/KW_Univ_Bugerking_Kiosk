@@ -30,9 +30,9 @@ namespace KW_Univ_BurgerKing_Kiosk
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.cash_radioButton = new System.Windows.Forms.RadioButton();
-            this.credit_radioButton = new System.Windows.Forms.RadioButton();
             this.kakao_radioButton = new System.Windows.Forms.RadioButton();
+            this.credit_radioButton = new System.Windows.Forms.RadioButton();
+            this.cash_radioButton = new System.Windows.Forms.RadioButton();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -55,16 +55,17 @@ namespace KW_Univ_BurgerKing_Kiosk
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "결제 수단";
             // 
-            // cash_radioButton
+            // kakao_radioButton
             // 
-            this.cash_radioButton.AutoSize = true;
-            this.cash_radioButton.Location = new System.Drawing.Point(7, 21);
-            this.cash_radioButton.Name = "cash_radioButton";
-            this.cash_radioButton.Size = new System.Drawing.Size(47, 16);
-            this.cash_radioButton.TabIndex = 0;
-            this.cash_radioButton.TabStop = true;
-            this.cash_radioButton.Text = "현금";
-            this.cash_radioButton.UseVisualStyleBackColor = true;
+            this.kakao_radioButton.AutoSize = true;
+            this.kakao_radioButton.Location = new System.Drawing.Point(7, 67);
+            this.kakao_radioButton.Name = "kakao_radioButton";
+            this.kakao_radioButton.Size = new System.Drawing.Size(87, 16);
+            this.kakao_radioButton.TabIndex = 2;
+            this.kakao_radioButton.TabStop = true;
+            this.kakao_radioButton.Text = "카카오 페이";
+            this.kakao_radioButton.UseVisualStyleBackColor = true;
+            this.kakao_radioButton.CheckedChanged += new System.EventHandler(this.kakao_radioButton_CheckedChanged);
             // 
             // credit_radioButton
             // 
@@ -76,17 +77,19 @@ namespace KW_Univ_BurgerKing_Kiosk
             this.credit_radioButton.TabStop = true;
             this.credit_radioButton.Text = "신용 카드";
             this.credit_radioButton.UseVisualStyleBackColor = true;
+            this.credit_radioButton.CheckedChanged += new System.EventHandler(this.credit_radioButton_CheckedChanged);
             // 
-            // kakao_radioButton
+            // cash_radioButton
             // 
-            this.kakao_radioButton.AutoSize = true;
-            this.kakao_radioButton.Location = new System.Drawing.Point(7, 67);
-            this.kakao_radioButton.Name = "kakao_radioButton";
-            this.kakao_radioButton.Size = new System.Drawing.Size(87, 16);
-            this.kakao_radioButton.TabIndex = 2;
-            this.kakao_radioButton.TabStop = true;
-            this.kakao_radioButton.Text = "카카오 페이";
-            this.kakao_radioButton.UseVisualStyleBackColor = true;
+            this.cash_radioButton.AutoSize = true;
+            this.cash_radioButton.Location = new System.Drawing.Point(7, 21);
+            this.cash_radioButton.Name = "cash_radioButton";
+            this.cash_radioButton.Size = new System.Drawing.Size(47, 16);
+            this.cash_radioButton.TabIndex = 0;
+            this.cash_radioButton.TabStop = true;
+            this.cash_radioButton.Text = "현금";
+            this.cash_radioButton.UseVisualStyleBackColor = true;
+            this.cash_radioButton.CheckedChanged += new System.EventHandler(this.cash_radioButton_CheckedChanged);
             // 
             // textBox1
             // 
@@ -114,7 +117,7 @@ namespace KW_Univ_BurgerKing_Kiosk
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(206, 88);
             this.button2.TabIndex = 3;
-            this.button2.Text = "취소";
+            this.button2.Text = "나가기";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -124,9 +127,9 @@ namespace KW_Univ_BurgerKing_Kiosk
             this.label1.Font = new System.Drawing.Font("굴림", 24F, System.Drawing.FontStyle.Bold);
             this.label1.Location = new System.Drawing.Point(32, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(159, 32);
+            this.label1.Size = new System.Drawing.Size(183, 32);
             this.label1.TabIndex = 4;
-            this.label1.Text = "결제 금액";
+            this.label1.Text = "결제 금액 :";
             // 
             // label2
             // 
@@ -171,6 +174,7 @@ namespace KW_Univ_BurgerKing_Kiosk
             this.Controls.Add(this.groupBox1);
             this.Name = "Payment";
             this.Text = "Payment";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Payment_FormClosed);
             this.Load += new System.EventHandler(this.Payment_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

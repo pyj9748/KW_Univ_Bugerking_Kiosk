@@ -60,6 +60,7 @@
     <Compile Include="Menu_Select.Designer.cs">
       <DependentUpon>Menu_Select.cs</DependentUpon>
     </Compile>
+    <Compile Include="pay.cs" />
     <Compile Include="Payment.cs">
       <SubType>Form</SubType>
     </Compile>

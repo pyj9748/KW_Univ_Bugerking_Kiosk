@@ -198,18 +198,24 @@ namespace KW_Univ_BurgerKing_Kiosk
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Payment payment = new Payment();
-          
             
+            Payment payment = new Payment(Boughtlist);
+
+            List<item> boughtlist = new List<item>();
+            boughtlist = Boughtlist;
+           
             int price_sum=0;
             foreach (item i in Boughtlist) {
                 price_sum += i.price;
             }
-            
-            payment.label2.Text = price_sum.ToString() + "원";
+           
+            payment.label2.Text = price_sum.ToString() + "원" ;
             payment.label4.Text = ordernum.ToString();
+            
             DialogResult dialogResult = payment.ShowDialog();
             ordernum++;
+
+
         }
     }
 }
