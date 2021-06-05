@@ -22,5 +22,18 @@ namespace KW_Univ_BurgerKing_Kiosk
             this.price = price;
             this.type = type;
         }
+
+        public bool isEqual(item x)
+        {
+            if (!this.name.Equals(x.name)) return false;
+            if (this.take_out != x.take_out) return false;
+            if (this.detaillist.Count != x.detaillist.Count) return false;
+            
+            for(int i = 0; i < this.detaillist.Count; ++i)
+                if (!this.detaillist[i].name.Equals(x.detaillist[i].name))
+                    return false;
+
+            return true;
+        }
     }
 }

@@ -113,6 +113,7 @@
             this.mnu1_minus.Text = "-";
             this.mnu1_minus.UseVisualStyleBackColor = true;
             this.mnu1_minus.Visible = false;
+            this.mnu1_minus.Click += new System.EventHandler(this.mnu_minus_Click);
             // 
             // mnu1_plus
             // 
@@ -123,6 +124,7 @@
             this.mnu1_plus.Text = "+";
             this.mnu1_plus.UseVisualStyleBackColor = true;
             this.mnu1_plus.Visible = false;
+            this.mnu1_plus.Click += new System.EventHandler(this.mnu_plus_Click);
             // 
             // mnu1_delete
             // 
@@ -179,6 +181,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(484, 638);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.price_result);

@@ -187,7 +187,8 @@ namespace KW_Univ_BurgerKing_Kiosk
 
             if (menu.cancel == false)
             {
-                Boughtlist.Add(menu.order);
+                //Boughtlist.Add(menu.order);
+                addMenu(menu.order);
             }
 
             if (Boughtlist.Count > 0)
@@ -197,9 +198,11 @@ namespace KW_Univ_BurgerKing_Kiosk
 
            
         }
+
         public static void initorder() {
             Boughtlist.Clear();
         }
+
         private void button6_Click(object sender, EventArgs e)
         {
             
@@ -207,10 +210,10 @@ namespace KW_Univ_BurgerKing_Kiosk
 
             List<item> boughtlist = new List<item>();
             boughtlist = Boughtlist;
-           
-            int price_sum=0;
+
+            int price_sum = 0;
             foreach (item i in Boughtlist) {
-                price_sum += i.price;
+                price_sum += i.price * i.quantity;
             }
            
             payment.label2.Text = price_sum.ToString() + "원" ;
@@ -228,6 +231,26 @@ namespace KW_Univ_BurgerKing_Kiosk
             Cart cart = new Cart(ref Boughtlist);
 
             DialogResult dialogResult = cart.ShowDialog();
+            cart_btn.Text = Boughtlist.Count > 0 ? "장바구니(" + Boughtlist.Count + ")" : "장바구니";
+        }
+
+        private void Menu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        void addMenu(item o)
+        {
+            for(int i = 0; i < Boughtlist.Count; ++i)
+            {
+                if (Boughtlist[i].isEqual(o))
+                {
+                    ++Boughtlist[i].quantity;
+                    return;
+                }
+            }
+
+            Boughtlist.Add(o);
         }
     }
 }

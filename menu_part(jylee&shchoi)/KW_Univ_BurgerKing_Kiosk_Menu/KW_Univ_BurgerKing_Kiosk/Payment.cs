@@ -62,6 +62,7 @@ namespace KW_Univ_BurgerKing_Kiosk
                 foreach (item i in pa.boughtlist)
                 {
                     textBox1.AppendText(i.name + "\r\n");
+                    builder.Append(i.name + "\r\n");
                     foreach (detail d in i.detaillist)
                     {
                         if (d.name == "매장 식사")

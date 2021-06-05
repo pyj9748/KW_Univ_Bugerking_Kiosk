@@ -44,3 +44,29 @@ C:\Users\Octoping\Desktop\과제\응용소프트웨어실습\Project\menu_part(j
 C:\Users\Octoping\Desktop\과제\응용소프트웨어실습\Project\menu_part(jylee&shchoi)\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.csproj.CoreCompileInputs.cache
 C:\Users\Octoping\Desktop\과제\응용소프트웨어실습\Project\menu_part(jylee&shchoi)\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.exe
 C:\Users\Octoping\Desktop\과제\응용소프트웨어실습\Project\menu_part(jylee&shchoi)\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.pdb
+C:\Users\이종윤\Documents\대학\응용소프트웨어실습\과제\팀플\새 폴더\menu_part(jylee&shchoi)\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\bin\Debug\KW_Univ_BurgerKing_Kiosk.exe.config
+C:\Users\이종윤\Documents\대학\응용소프트웨어실습\과제\팀플\새 폴더\menu_part(jylee&shchoi)\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\bin\Debug\KW_Univ_BurgerKing_Kiosk.exe
+C:\Users\이종윤\Documents\대학\응용소프트웨어실습\과제\팀플\새 폴더\menu_part(jylee&shchoi)\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\bin\Debug\KW_Univ_BurgerKing_Kiosk.pdb
+C:\Users\이종윤\Documents\대학\응용소프트웨어실습\과제\팀플\새 폴더\menu_part(jylee&shchoi)\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.csprojAssemblyReference.cache
+C:\Users\이종윤\Documents\대학\응용소프트웨어실습\과제\팀플\새 폴더\menu_part(jylee&shchoi)\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.Cart.resources
+C:\Users\이종윤\Documents\대학\응용소프트웨어실습\과제\팀플\새 폴더\menu_part(jylee&shchoi)\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.Menu.resources
+C:\Users\이종윤\Documents\대학\응용소프트웨어실습\과제\팀플\새 폴더\menu_part(jylee&shchoi)\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.Menu_Select.resources
+C:\Users\이종윤\Documents\대학\응용소프트웨어실습\과제\팀플\새 폴더\menu_part(jylee&shchoi)\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.Payment.resources
+C:\Users\이종윤\Documents\대학\응용소프트웨어실습\과제\팀플\새 폴더\menu_part(jylee&shchoi)\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.Properties.Resources.resources
+C:\Users\이종윤\Documents\대학\응용소프트웨어실습\과제\팀플\새 폴더\menu_part(jylee&shchoi)\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.csproj.GenerateResource.cache
+C:\Users\이종윤\Documents\대학\응용소프트웨어실습\과제\팀플\새 폴더\menu_part(jylee&shchoi)\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.csproj.CoreCompileInputs.cache
+C:\Users\이종윤\Documents\대학\응용소프트웨어실습\과제\팀플\새 폴더\menu_part(jylee&shchoi)\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.exe
+C:\Users\이종윤\Documents\대학\응용소프트웨어실습\과제\팀플\새 폴더\menu_part(jylee&shchoi)\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.pdb
+C:\Users\Octoping\Desktop\과제\응용소프트웨어실습\Project\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\bin\Debug\KW_Univ_BurgerKing_Kiosk.exe.config
+C:\Users\Octoping\Desktop\과제\응용소프트웨어실습\Project\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\bin\Debug\KW_Univ_BurgerKing_Kiosk.exe
+C:\Users\Octoping\Desktop\과제\응용소프트웨어실습\Project\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\bin\Debug\KW_Univ_BurgerKing_Kiosk.pdb
+C:\Users\Octoping\Desktop\과제\응용소프트웨어실습\Project\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.csprojAssemblyReference.cache
+C:\Users\Octoping\Desktop\과제\응용소프트웨어실습\Project\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.Cart.resources
+C:\Users\Octoping\Desktop\과제\응용소프트웨어실습\Project\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.Menu.resources
+C:\Users\Octoping\Desktop\과제\응용소프트웨어실습\Project\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.Menu_Select.resources
+C:\Users\Octoping\Desktop\과제\응용소프트웨어실습\Project\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.Payment.resources
+C:\Users\Octoping\Desktop\과제\응용소프트웨어실습\Project\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.Properties.Resources.resources
+C:\Users\Octoping\Desktop\과제\응용소프트웨어실습\Project\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.csproj.GenerateResource.cache
+C:\Users\Octoping\Desktop\과제\응용소프트웨어실습\Project\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.csproj.CoreCompileInputs.cache
+C:\Users\Octoping\Desktop\과제\응용소프트웨어실습\Project\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.exe
+C:\Users\Octoping\Desktop\과제\응용소프트웨어실습\Project\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.pdb
