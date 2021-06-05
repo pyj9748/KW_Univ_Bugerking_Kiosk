@@ -62,7 +62,6 @@ namespace KW_Univ_BurgerKing_Kiosk
                 foreach (item i in pa.boughtlist)
                 {
                     textBox1.AppendText(i.name + "\r\n");
-                    builder.Append(i.name + "\r\n"); ;
                     foreach (detail d in i.detaillist)
                     {
                         if (d.name == "매장 식사")
@@ -77,7 +76,6 @@ namespace KW_Univ_BurgerKing_Kiosk
                         }
                         else
                         {
-                           
                             textBox1.AppendText("\t\t+" + d.name + "\r\n");
                             builder.Append("\t\t+" + d.name + "\r\n");
                         }
@@ -104,7 +102,7 @@ namespace KW_Univ_BurgerKing_Kiosk
 
             }
             alist.Clear();
-            form.button5.Text = "장바구니";
+            form.cart_btn.Text = "장바구니";
         }
         private void button1_Click(object sender, EventArgs e)
         {

@@ -77,8 +77,7 @@ namespace KW_Univ_BurgerKing_Kiosk
                 order.price += 800;
                 order.detaillist.Add(new detail("베이컨 추가", 1, 800));
             }
-            if (comboBox1.Enabled == true)
-                order.detaillist.Add(new detail(comboBox1.Text, 1, 0));
+            order.detaillist.Add(new detail(comboBox1.Text, 1, 0));
             if (radioButton1.Checked)
             {
                 order.detaillist.Add(new detail("매장 식사", 1, 0));

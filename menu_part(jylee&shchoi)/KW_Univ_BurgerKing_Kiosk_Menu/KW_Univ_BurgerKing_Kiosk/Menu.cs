@@ -192,7 +192,7 @@ namespace KW_Univ_BurgerKing_Kiosk
 
             if (Boughtlist.Count > 0)
             {
-                button5.Text = "장바구니(" + Boughtlist.Count + ")";
+                cart_btn.Text = "장바구니(" + Boughtlist.Count + ")";
             }
 
            
@@ -223,7 +223,11 @@ namespace KW_Univ_BurgerKing_Kiosk
 
         }
 
-        
-        
+        private void cart_btn_Click(object sender, EventArgs e)
+        {
+            Cart cart = new Cart(ref Boughtlist);
+
+            DialogResult dialogResult = cart.ShowDialog();
+        }
     }
 }
