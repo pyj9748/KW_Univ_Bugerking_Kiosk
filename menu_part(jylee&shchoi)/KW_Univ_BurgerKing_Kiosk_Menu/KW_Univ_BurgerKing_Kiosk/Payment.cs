@@ -102,7 +102,7 @@ namespace KW_Univ_BurgerKing_Kiosk
 
             }
             alist.Clear();
-            form.button5.Text = "장바구니";
+            form.cart_btn.Text = "장바구니";
         }
         private void button1_Click(object sender, EventArgs e)
         {

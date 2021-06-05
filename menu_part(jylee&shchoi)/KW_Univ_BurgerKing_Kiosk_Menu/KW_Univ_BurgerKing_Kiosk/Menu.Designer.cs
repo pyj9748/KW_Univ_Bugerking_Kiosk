@@ -37,7 +37,7 @@ namespace KW_Univ_BurgerKing_Kiosk
             this.button4 = new System.Windows.Forms.Button();
             this.listView1 = new System.Windows.Forms.ListView();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.button5 = new System.Windows.Forms.Button();
+            this.cart_btn = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -122,15 +122,16 @@ namespace KW_Univ_BurgerKing_Kiosk
             this.imageList1.Images.SetKeyName(18, "18미닛메이드 오렌지.jpg");
             this.imageList1.Images.SetKeyName(19, "19아메리카노.jpg");
             // 
-            // button5
+            // cart_btn
             // 
-            this.button5.Font = new System.Drawing.Font("굴림", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button5.Location = new System.Drawing.Point(12, 519);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(220, 80);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "장바구니";
-            this.button5.UseVisualStyleBackColor = true;
+            this.cart_btn.Font = new System.Drawing.Font("굴림", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.cart_btn.Location = new System.Drawing.Point(12, 519);
+            this.cart_btn.Name = "cart_btn";
+            this.cart_btn.Size = new System.Drawing.Size(220, 80);
+            this.cart_btn.TabIndex = 5;
+            this.cart_btn.Text = "장바구니";
+            this.cart_btn.UseVisualStyleBackColor = true;
+            this.cart_btn.Click += new System.EventHandler(this.cart_btn_Click);
             // 
             // button6
             // 
@@ -149,7 +150,7 @@ namespace KW_Univ_BurgerKing_Kiosk
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(484, 611);
             this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.cart_btn);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -170,7 +171,7 @@ namespace KW_Univ_BurgerKing_Kiosk
         private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.ImageList imageList1;
-        public System.Windows.Forms.Button button5;
+        public System.Windows.Forms.Button cart_btn;
     }
 }
 
