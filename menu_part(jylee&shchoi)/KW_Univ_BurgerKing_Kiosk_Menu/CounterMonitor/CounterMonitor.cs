@@ -78,10 +78,10 @@ namespace CounterMonitor
 
                 sendbuffer = Encoding.Default.GetBytes("조금만 기다려주세요 - " + DateTime.Now.ToString("HH:mm:ss"));
                 client.Send(sendbuffer, sendbuffer.Length, SocketFlags.None);
+                textBox1.AppendText("\r\n");
 
 
 
-              
 
                 client.Close();
                 server.Close();

@@ -168,9 +168,9 @@ namespace KW_Univ_BurgerKing_Kiosk
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.ImageList imageList1;
+        public System.Windows.Forms.Button button5;
     }
 }
 

@@ -19,19 +19,19 @@ namespace KW_Univ_BurgerKing_Kiosk
 {
     public partial class Payment : Form
     {
-
+        Menu form;
 
         pay pa;
         int cnt = 0;
 
-
+        List<item> alist;
         Socket client;
+       
 
-
-        public Payment(List<item> list)
+        public Payment(ref  List<item>  list,Menu menu)
         {
             InitializeComponent();
-
+            
             textBox1.AppendText("결제 방식을 선택하시고 결제 버튼을 누르세요\r\n");
             pa = new pay("현금", 100, list);
 
@@ -40,17 +40,21 @@ namespace KW_Univ_BurgerKing_Kiosk
             client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
             client.Connect(ipep);
-
+            alist = list;
             //byte[] sendbuffer = Encoding.Default.GetBytes("");
             // byte[] recv_buf = new byte[1024];
-
-
+            form = menu;
+           
 
         }
         public void run() {
             var builder = new StringBuilder();
             if (cnt == 0)
             {
+                if (pa.boughtlist.Count() == 0) {
+                    textBox1.AppendText("주문한 메뉴가 없습니다 다시 주문해주세요.\r\n");
+                    return;
+                }
                 textBox1.AppendText("주문번호 : " + label4.Text + "\r\n");
                 builder.Append("주문번호 : " + label4.Text + "\r\n");
                 textBox1.AppendText("주문 내역 :  \r\n");
@@ -91,17 +95,20 @@ namespace KW_Univ_BurgerKing_Kiosk
                 client.Receive(recv_buf);
                 textBox1.AppendText(Encoding.Default.GetString(recv_buf));
                 client.Close();
+                
             }
             else
             {
 
             }
+            alist.Clear();
+            form.button5.Text = "장바구니";
         }
         private void button1_Click(object sender, EventArgs e)
         {
             (new Thread(new ThreadStart(run))).Start();
-
-
+            
+            
 
         }
 
@@ -134,6 +141,7 @@ namespace KW_Univ_BurgerKing_Kiosk
         private void Payment_FormClosed(object sender, FormClosedEventArgs e)
         {
             client.Close();
+
         }
     }
 }

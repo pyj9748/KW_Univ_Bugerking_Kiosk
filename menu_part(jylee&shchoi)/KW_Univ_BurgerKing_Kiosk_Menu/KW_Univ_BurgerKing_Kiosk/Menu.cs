@@ -18,7 +18,7 @@ namespace KW_Univ_BurgerKing_Kiosk
         List<item> single_menulist = new List<item>();
         List<item> side_menulist = new List<item>();
         List<detail> detaillist = new List<detail>(); // 세부 사항 리스트 너희가 만든 세부사항 추가
-        List<item> Boughtlist = new List<item>(); // 여기는 산 메뉴 추가하는 리스트
+        public static List<item> Boughtlist = new List<item>(); // 여기는 산 메뉴 추가하는 리스트
 
         int selected_menu;
         int ordernum = 555;
@@ -194,12 +194,16 @@ namespace KW_Univ_BurgerKing_Kiosk
             {
                 button5.Text = "장바구니(" + Boughtlist.Count + ")";
             }
-        }
 
+           
+        }
+        public static void initorder() {
+            Boughtlist.Clear();
+        }
         private void button6_Click(object sender, EventArgs e)
         {
             
-            Payment payment = new Payment(Boughtlist);
+            Payment payment = new Payment(ref Boughtlist,this);
 
             List<item> boughtlist = new List<item>();
             boughtlist = Boughtlist;
@@ -215,7 +219,11 @@ namespace KW_Univ_BurgerKing_Kiosk
             DialogResult dialogResult = payment.ShowDialog();
             ordernum++;
 
+            
 
         }
+
+        
+        
     }
 }
