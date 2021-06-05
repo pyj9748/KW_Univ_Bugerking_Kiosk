@@ -57,6 +57,7 @@ namespace CounterMonitor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(484, 611);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);

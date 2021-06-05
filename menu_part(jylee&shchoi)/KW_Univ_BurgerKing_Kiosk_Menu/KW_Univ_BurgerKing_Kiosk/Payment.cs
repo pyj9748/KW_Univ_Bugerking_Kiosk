@@ -31,28 +31,28 @@ namespace KW_Univ_BurgerKing_Kiosk
         public Payment(List<item> list)
         {
             InitializeComponent();
-           
+
             textBox1.AppendText("결제 방식을 선택하시고 결제 버튼을 누르세요\r\n");
-             pa = new pay("현금", 100, list);
+            pa = new pay("현금", 100, list);
 
             IPEndPoint ipep = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 7777);
 
-             client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
             client.Connect(ipep);
 
             //byte[] sendbuffer = Encoding.Default.GetBytes("");
-           // byte[] recv_buf = new byte[1024];
+            // byte[] recv_buf = new byte[1024];
 
-           
+
 
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
+        public void run() {
             var builder = new StringBuilder();
             if (cnt == 0)
             {
+                textBox1.AppendText("주문번호 : " + label4.Text + "\r\n");
+                builder.Append("주문번호 : " + label4.Text + "\r\n");
                 textBox1.AppendText("주문 내역 :  \r\n");
                 builder.Append("주문 내역 :  \r\n");
                 foreach (item i in pa.boughtlist)
@@ -81,8 +81,7 @@ namespace KW_Univ_BurgerKing_Kiosk
                 builder.Append("결제 금액 :  " + label2.Text + "\r\n");
                 textBox1.AppendText("선택하신 결제 방법 : " + pa.payway + "\r\n");
                 builder.Append("선택하신 결제 방법 : " + pa.payway + "\r\n");
-                textBox1.AppendText("주문번호 : " + label4.Text + "\r\n");
-                builder.Append("주문번호 : " + label4.Text + "\r\n");
+               
                 cnt = 1;
 
 
@@ -93,9 +92,14 @@ namespace KW_Univ_BurgerKing_Kiosk
                 textBox1.AppendText(Encoding.Default.GetString(recv_buf));
                 client.Close();
             }
-            else {
-              
+            else
+            {
+
             }
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            (new Thread(new ThreadStart(run))).Start();
 
 
 
