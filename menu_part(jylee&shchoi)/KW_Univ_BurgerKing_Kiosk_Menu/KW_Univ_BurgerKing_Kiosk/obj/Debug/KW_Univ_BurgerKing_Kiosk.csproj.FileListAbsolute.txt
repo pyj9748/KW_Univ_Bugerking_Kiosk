@@ -70,3 +70,4 @@ C:\Users\Octoping\Desktop\과제\응용소프트웨어실습\Project\KW_Univ_Bur
 C:\Users\Octoping\Desktop\과제\응용소프트웨어실습\Project\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.csproj.CoreCompileInputs.cache
 C:\Users\Octoping\Desktop\과제\응용소프트웨어실습\Project\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.exe
 C:\Users\Octoping\Desktop\과제\응용소프트웨어실습\Project\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.pdb
+C:\Users\pyj97\OneDrive\문서\GitHub\KW_Univ_Bugerking_Kiosk\menu_part(jylee&shchoi)\KW_Univ_BurgerKing_Kiosk_Menu\KW_Univ_BurgerKing_Kiosk\obj\Debug\KW_Univ_BurgerKing_Kiosk.Cart.resources
