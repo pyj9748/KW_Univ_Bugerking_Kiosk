@@ -101,24 +101,26 @@ namespace KW_Univ_BurgerKing_Kiosk
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Tomato;
             this.button1.Font = new System.Drawing.Font("굴림", 24F, System.Drawing.FontStyle.Bold);
             this.button1.Location = new System.Drawing.Point(31, 492);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(206, 88);
             this.button1.TabIndex = 2;
             this.button1.Text = "결제";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.LimeGreen;
             this.button2.Font = new System.Drawing.Font("굴림", 24F, System.Drawing.FontStyle.Bold);
             this.button2.Location = new System.Drawing.Point(250, 492);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(206, 88);
             this.button2.TabIndex = 3;
             this.button2.Text = "나가기";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label1
@@ -163,6 +165,7 @@ namespace KW_Univ_BurgerKing_Kiosk
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Sienna;
             this.ClientSize = new System.Drawing.Size(484, 611);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
