@@ -26,9 +26,9 @@ namespace KW_Univ_BurgerKing_Kiosk
 
         List<item> alist;
         Socket client;
-       
+         int n;
 
-        public Payment(ref  List<item>  list,Menu menu)
+        public Payment(ref  List<item> list,ref int ordernum,Menu menu)
         {
             InitializeComponent();
             
@@ -44,8 +44,8 @@ namespace KW_Univ_BurgerKing_Kiosk
             //byte[] sendbuffer = Encoding.Default.GetBytes("");
             // byte[] recv_buf = new byte[1024];
             form = menu;
-           
 
+            n = ordernum;
         }
         public void run() {
             var builder = new StringBuilder();
@@ -96,7 +96,7 @@ namespace KW_Univ_BurgerKing_Kiosk
                 client.Receive(recv_buf);
                 textBox1.AppendText(Encoding.Default.GetString(recv_buf));
                 client.Close();
-                
+                form.ordernum++;
             }
             else
             {
@@ -104,6 +104,7 @@ namespace KW_Univ_BurgerKing_Kiosk
             }
             alist.Clear();
             form.cart_btn.Text = "장바구니";
+            
         }
         private void button1_Click(object sender, EventArgs e)
         {

@@ -21,7 +21,7 @@ namespace KW_Univ_BurgerKing_Kiosk
         public static List<item> Boughtlist = new List<item>(); // 여기는 산 메뉴 추가하는 리스트
 
         int selected_menu;
-        int ordernum = 555;
+        public int ordernum = 555;
         public Menu()
         {
             InitializeComponent();
@@ -206,7 +206,7 @@ namespace KW_Univ_BurgerKing_Kiosk
         private void button6_Click(object sender, EventArgs e)
         {
             
-            Payment payment = new Payment(ref Boughtlist,this);
+            Payment payment = new Payment(ref Boughtlist,ref ordernum,this);
 
             List<item> boughtlist = new List<item>();
             boughtlist = Boughtlist;
@@ -220,7 +220,7 @@ namespace KW_Univ_BurgerKing_Kiosk
             payment.label4.Text = ordernum.ToString();
             
             DialogResult dialogResult = payment.ShowDialog();
-            ordernum++;
+           // ordernum++;
 
             
 
